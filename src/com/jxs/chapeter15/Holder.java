@@ -9,14 +9,14 @@ public class Holder<T> {
 
     public Holder() {}
 
-    public Holder(T value) {
+    public Holder(T val) {
 
-        this.value = value;
+        value = val;
     }
 
-    public void set(T value) {
+    public void set(T val) {
 
-        this.value = value;
+        value = val;
     }
 
     public T get() {
