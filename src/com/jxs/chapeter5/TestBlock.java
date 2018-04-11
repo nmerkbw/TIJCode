@@ -21,6 +21,7 @@ public class TestBlock {
 
 
     public TestBlock() {
+
         this("带参构造方法在执行a="+a); // 调用另外一个构造方法
         System.out.println("无参构造方法在执行a=" + a);
     }
@@ -34,6 +35,6 @@ public class TestBlock {
     public static void main(String[] args) {
         TestBlock t = null;
         System.out.println("!!!!!!!!!!!!!!!!!!!!!");
-        t = new TestBlock("123");
+        t = new TestBlock();
     }
 }
