@@ -51,11 +51,3 @@ public class GenericReading {
         }
     }
 }
-
-class Fruit{}
-
-class Apple extends Fruit {}
-
-class Jonathan extends Apple {}
-
-class Orange extends Fruit {}
